@@ -1,0 +1,13 @@
+Solution Approach:
+
+1. Factory Design pattern has been used as it will easily extendable for new product types
+
+Assumptions:
+
+1. Every month has been considered as 30 days, to calculate expiration date
+2. The combination of (customrid, productname, domain) has been considered as unique
+
+Future work:
+
+1. Validations need to be kept in place, as of now it is implemented considering user will enter data in expected format only
+2. Exception handling need to be done
